@@ -1,0 +1,173 @@
+.maindiv{
+  display: grid;
+  grid-template-rows: 109px 1fr;
+  
+}
+.head{
+  background-color: black;
+ 
+ 
+ 
+}
+
+.headtexts{
+  color: white;
+  text-align: center;
+  font-weight:bolder;
+  font-size: 30px;
+  margin-top: 0%;
+  padding-top:38px ;
+  padding-bottom: 30px;
+  height: 100%;
+  width: 100%;
+}
+.for{
+  font-size: small;
+}
+.bodydiv{
+  background-color: lightgray;
+  height: 700px;
+ 
+
+
+
+}
+
+.myself{
+  background-color: lightgray;
+  margin-top: 0%;
+  text-align: center;
+  font-style: italic;
+}
+.quots{
+  font-family: cursive;
+  font-size: x-large;
+  color: black;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 30px;
+  margin-top: 110px;
+
+ 
+
+}
+.congrats{
+  font-family: cursive;
+  font-size: x-large;
+  color: black;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 45px;
+}
+.enddiv{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 0, 0);
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border: solid rgb(0, 0, 0);
+  
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: center;
+  height: 120px;
+  
+
+}
+.gpa-result{
+  margin-top: 50px;
+  font-size: 100px;
+  text-align: center;
+}
+.sentence{
+  margin-top: 70px;
+  font-family: cursive;
+  text-align: center;
+  font-size: 25px;
+
+}
+.top-div{
+  flex: 20px;
+ color: white;
+ display: flex;
+ padding-left: 10px;
+ padding-top: 10px;
+ font-family: cursive;
+ padding-bottom: 0%jkiklu;
+  
+ 
+ 
+  
+}
+.center-div{
+  flex: 60px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+  
+ 
+}
+.insta{
+  height: 28px;
+  width: 28px;
+  
+  margin-left: -19%;
+  
+}
+.insta-image{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.insta-id{
+  
+  font-family: cursive;
+  color: white;
+  margin-left: 2%;
+
+}
+.id{
+  color: white;
+}
+.link{
+  color:  rgb(11, 10, 10);
+}
+
+.mail{
+  height: 28px;
+  width: 28px;
+  margin-left: 4%;
+
+ 
+  
+  
+
+}
+.mail-id{
+  height: 20px;
+  width: 20px;
+ 
+  font-family: cursive;
+  color: white;
+  margin-left: 3%;
+
+
+ 
+}
+.mail-image{
+  height: 100%;
+  width: 100%;
+  width: auto;
+  object-fit: cover;
+
+}
+.thankyou-div{
+  flex: 20px;
+  font-family: cursive;
+  color: white;
+  text-align: center;
+}

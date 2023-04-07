@@ -1,0 +1,153 @@
+.maindiv{
+  display: grid;
+  grid-template-rows: 109px 1fr ;
+  
+}
+.headdiv{
+  background-color: black;
+ 
+ 
+}
+.headtexts{
+  color: white;
+  text-align: center;
+  font-weight:bolder;
+  font-size: 30px;
+  margin-top: 0%;
+  padding-top:38px ;
+}
+.for{
+  font-size: small;
+}
+.bodydiv{
+  background-color: lightgray;
+  height: 700px;
+
+}
+.boxdiv{
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 300px;
+  border-width: 1px;
+  border: 1px solid black;
+  background-color: lightgray;
+  margin: auto;
+  margin-top: 70px;
+  border-width: 2px;
+  box-shadow: 5px 10px 5px rgba(0,0, 0, 0.4);
+  border-radius: 10px;
+
+}
+.boxone
+{
+  flex: 1;
+  background-color: lightgray;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  
+}
+.select-collage
+{
+  font-family: arial;
+  margin-top: 40px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.select-semester{
+font-family: arial;
+margin-left: -11px;
+font-size: 20px;
+
+}
+.select-department{
+  font-family: arial;
+  margin-left: -11px;
+  font-size: 20px;
+  margin-top: 10px;
+
+
+}  
+  
+  
+
+.sel-one,.sel-two,.sel-three
+{
+  height: 25px;
+  width: 250px;
+  border-radius: 5px;
+ 
+  
+
+}
+.select-div-one ,.select-div-two,.select-div-three{
+  display: flex;
+  justify-content: center;
+
+}
+
+.boxtwo{
+  flex: 1;
+  background-color: lightgray;
+  margin: auto;
+}
+.boxthree
+{
+  flex: 1;
+  background-color: lightgray;
+  margin: auto;
+}
+.boxfour{
+  flex: 1;
+  background-color: lightgray;
+ border-bottom-right-radius: 10px;
+ border-bottom-left-radius: 10px;
+ 
+}
+.submitbutton{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color:white;
+  border: none;
+  color:black;
+  border-radius: 20px;
+  font-family: arial;
+  font-size: medium;
+  margin-left: 150px;
+  margin-top: 50px;
+  
+}
+.submitbutton:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  
+
+  
+  
+}
+.submitbutton:active{
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 13px;
+  padding-right: 13px;
+  background-color:white;
+  border: none;
+  color:black;
+  border-radius: 20px;
+  font-family: arial;
+  font-size: medium;
+  margin-top: 3px;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: 0.1;
+  margin-left: 150px;
+  margin-top: 53px;
+ 
+
+}
+.collage{
+  justify-content: center;
+  align-items: center;
+} 

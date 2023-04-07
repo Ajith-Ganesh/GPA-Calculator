@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>GPA Calculator</title>
+    <link rel="stylesheet" href="display.css">
+    
+  </head>
+  <body class="htmlbody">
+    <div class="maindiv">
+      <div class="head">
+        <p class="headtexts">GPA CALCULATOR <span class="for">for</span><br><span class="clg-name">St.Joseph's Group of Institutions</span></p>
+      </div>
+      <div class="bodydiv">
+        
+        <div class="content">
+          
+          <div class="quotdiv">
+            <p class="quots"> Your GPA is </p>
+          </div>
+         <div id="result" class="gpa-result">
+        
+         </div>
+         <div class="sentence">
+          &#34;Succes is not final&#8218;failure is not fatal &#8282; it is the courage to continue the counts.&#34;
+         </div>
+         <div class="enddiv">
+          <div class="thankyou-div">
+            Hope this was helpfull Thankyou !
+ 
+           </div>
+          <div class="top-div">
+            You can contact me on 
+          </div>
+          <div class="center-div">
+            <div class="insta">
+              <a href="instagram.com/_ajith__g" target="_blank">
+                <img  class="insta-image"src="img/Insta.png.png">
+               </a>
+              
+            </div>
+            <div class="insta-id">
+              <a class="link"href="instagram.com/_ajith__g" target="_blank">
+               <span class="id"> &#95;ajith&#95;&#95;g</span>
+              </a>
+              
+
+            </div>
+            <div class="mail">
+              <a href="mailto:ajithganesh410@gmail.com" target="_blank">
+                <img  class="mail-image"src="img/Gmail.png.png">
+               </a>
+
+             
+            </div>
+            <div class="mail-id">
+              <a class="link"href="mailto:ajithganesh410@gmail.com" target="_blank">
+                <span class="id"> ajithganesh410@gmail.com</span>
+               </a>
+
+              
+            </div>
+          </div>
+          
+
+       </div>
+        </div>
+      </div>
+      
+
+    </div>
+    <script >
+      const queryString = window.location.search;
+      const urlParams = new URLSearchParams(queryString);
+      var gpa = urlParams.get('gpa');
+      console.log(gpa);
+      document.getElementById("result").innerText= gpa;
+      
+    </script>
+   
+
+  </body>
+
+</html>

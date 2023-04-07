@@ -1,0 +1,110 @@
+
+.maindiv{
+  display: grid;
+  grid-template-rows: 109px 1fr 20px;
+  
+}
+.head{
+  background-color: black;
+ 
+ 
+ 
+}
+
+.headtexts{
+  color: white;
+  text-align: center;
+  font-weight:bolder;
+  font-size: 30px;
+  margin-top: 0%;
+  padding-top:38px ;
+  padding-bottom: 30px;
+  height: 100%;
+  width: 100%;
+}
+.for{
+  font-size: small;
+}
+.bodydiv{
+  background-color: lightgray;
+  height: 680px;
+ 
+
+
+
+}
+
+.myself{
+  background-color: lightgray;
+  margin-top: 0%;
+  text-align: center;
+  font-style: italic;
+}
+.quots{
+  font-family: cursive;
+  font-size: x-large;
+  color: black;
+  text-align: center;
+  padding-top: 200px;
+
+ 
+
+}
+.welbutton{
+ text-align: center;
+ margin-top: 80px;
+ transition: 2s;
+
+
+
+
+ 
+}
+.buttonwel{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color:white;
+  border:none;
+  color:black;
+  border-radius: 20px;
+  font-family: arial;
+  font-size: large;
+
+
+  
+}
+.buttonwel:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+ 
+ 
+  
+  
+}
+.buttonwel:active{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 13px;
+  padding-right: 13px;
+  background-color:white;
+  border: none;
+  color:black;
+  border-radius: 20px;
+  font-family: arial;
+  font-size: large;
+  margin-top: 3px;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: 0.1;
+  
+ 
+
+} 
+
+
+
+
+
+
+
