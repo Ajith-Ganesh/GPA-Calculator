@@ -171,3 +171,32 @@
   color: white;
   text-align: center;
 }
+@media (max-width: 600px), screen and (orientation: portrait){
+
+  .bodydiv{
+   width:100%;
+   height:93vh;
+  }
+
+  .head{
+    width: 100%;
+  }
+
+  .content{
+    width: 100%;
+    height:93vh;
+    display: flex;
+    justify-content:space-evenly;
+    align-content: center;
+    flex-direction: column;
+    font-size: larger;
+   
+
+  }
+
+  .sentence{
+    margin: 0%;
+    font-size: xx-large;
+  }
+  
+}
