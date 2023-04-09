@@ -42,7 +42,7 @@
   font-style: italic;
 }
 .quots{
-  font-family: cursive;
+  font-family: 'Dosis', sans-serif;
   font-size: x-large;
   color: black;
   text-align: center;
@@ -116,11 +116,49 @@
 
   .head{
     width: 100%;
+    
   }
 
   .quots{
     margin-top:45% ;
-    font-size: xx-large;
+    font-size: 60px;
+  }
+  .buttonwel{
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:white;
+    border:none;
+    color:black;
+    border-radius: 30px;
+    font-family: arial;
+  
+    
+  }
+  .buttonwel:active{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color:white;
+    border: none;
+    color:black;
+    border-radius: 20px;
+    font-family: arial;
+    font-size: 30px;
+    margin-top: 3px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    transition: 0.1;
+    
+   
+  
+  }
+  .buttonwel:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+
   }
   
   

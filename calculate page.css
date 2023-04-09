@@ -374,7 +374,63 @@
     width: 100%;
   }
   .box-div{
-    margin-top: 40%;
+    margin-top: 30%;
+    width: 625px;
+    height: fit-content;
    
+  }
+  .left-div-one,.left-div-two,.left-div-three,.left-div-four,.left-div-five,.left-div-six,.left-div-seven,.left-div-eight{
+    font-size: 34px;
+  }
+  .select-one,.select-two,.select-three,.select-four,.select-five,.select-six,.select-seven,.select-eight{
+    font-size: 34px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  .submit-button{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:white;
+    border: none;
+    color:black;
+    border-radius: 30px;
+    font-family: arial;
+    font-size: 40px;
+    margin-top: 50px;
+   
+    
+    
+  }
+  .submit-button:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    
+  
+    
+    
+  }
+  .submit-button:active{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 26px;
+    padding-right: 26px;
+    background-color:white;
+    border: none;
+    color:black;
+    border-radius: 30px;
+    font-family: arial;
+    font-size: 40px;
+    margin-top: 3px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    transition: 0.1;
+    margin-top: 53px;
+    
+  
+  }
+  .click-div{
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
   }
 }

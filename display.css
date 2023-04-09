@@ -40,7 +40,7 @@
   font-style: italic;
 }
 .quots{
-  font-family: cursive;
+  font-family:  'Dosis', sans-serif;
   font-size: x-large;
   color: black;
   text-align: center;
@@ -51,20 +51,14 @@
  
 
 }
-.congrats{
-  font-family: cursive;
-  font-size: x-large;
-  color: black;
-  text-align: center;
-  padding-top: 50px;
-  font-size: 45px;
-}
+
+
 .enddiv{
   display: flex;
   flex-direction: column;
   background-color: rgb(0, 0, 0);
-  border-top-right-radius: 40px;
-  border-bottom-left-radius: 40px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
   border: solid rgb(0, 0, 0);
   
   margin-top: 100px;
@@ -82,7 +76,7 @@
 }
 .sentence{
   margin-top: 70px;
-  font-family: cursive;
+  font-family:  'Dosis', sans-serif;
   text-align: center;
   font-size: 25px;
 
@@ -93,7 +87,7 @@
  display: flex;
  padding-left: 10px;
  padding-top: 10px;
- font-family: cursive;
+ font-family:  'Dosis', sans-serif;
  padding-bottom: 0%jkiklu;
   
  
@@ -125,7 +119,7 @@
 }
 .insta-id{
   
-  font-family: cursive;
+  font-family:  'Dosis', sans-serif;
   color: white;
   margin-left: 2%;
 
@@ -151,7 +145,7 @@
   height: 20px;
   width: 20px;
  
-  font-family: cursive;
+  font-family:  'Dosis', sans-serif;
   color: white;
   margin-left: 3%;
 
@@ -167,7 +161,7 @@
 }
 .thankyou-div{
   flex: 20px;
-  font-family: cursive;
+  font-family:  'Dosis', sans-serif;
   color: white;
   text-align: center;
 }
@@ -193,10 +187,55 @@
    
 
   }
+  .quots{
+    font-size: 90px;
+
+  }
+  .gpa-result{
+    font-size: 200px;
+    margin-top: -20%;
+    
+   
+  }
 
   .sentence{
     margin: 0%;
-    font-size: xx-large;
+    font-size: 50px;
+  }
+  .enddiv{
+    height: fit-content;
+  }
+  .top-div,.thankyou-div{
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .insta-id,.mail-id{
+    font-size: 40px;
+    padding-bottom: 20px;
+
+  }
+  .insta{
+    height: 40px;
+    width: 40px;
+    margin-left: -30%;
+    
+    
+    
+  }
+  .mail{
+    height: 40px;
+    width: 40px;
+    margin-left: 4%;
+  
+   
+    
+    
+  
+  }
+  .center-div{
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   
 }
